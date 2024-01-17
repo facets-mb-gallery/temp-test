@@ -1,0 +1,78 @@
+{
+  "$schema": "https://docs.facets.cloud/schemas/stack.schema",
+  "composition": {
+    "plugins": []
+  },
+  "stackVariables": {},
+  "clusterVariablesMeta": {
+    "TITLE": {
+      "secret": false,
+      "value": "Mr.",
+      "global": false,
+      "description": "testing-variable123 abc"
+    },
+    "add-new-variable": {
+      "secret": true,
+      "value": "testing123",
+      "global": false,
+      "description": "test-new2"
+    },
+    "test-secret": {
+      "secret": true,
+      "value": "testing-secret",
+      "global": false,
+      "description": "testing secret creation2"
+    },
+    "test-secret-val-134": {
+      "secret": false,
+      "value": "test-var134",
+      "global": true,
+      "description": "testing2452"
+    },
+    "test-new-variable": {
+      "secret": true,
+      "value": "testing-new-variable",
+      "global": true,
+      "description": "asdtesting new variable-creaiton"
+    },
+    "test-var134": {
+      "secret": false,
+      "value": "test-var",
+      "global": true,
+      "description": "test variable"
+    },
+    "test": {
+      "secret": true,
+      "value": "abc",
+      "global": false,
+      "description": "this is a test"
+    },
+    "test3": {
+      "secret": false,
+      "value": "12345",
+      "global": true,
+      "description": "This is the second test"
+    },
+    "test4": {
+      "secret": false,
+      "value": "abc",
+      "global": true,
+      "description": "this is just another test"
+    },
+    "test5": {
+      "secret": true,
+      "value": "1234568",
+      "global": true,
+      "description": "one more test"
+    },
+    "test6": {
+      "secret": false,
+      "value": " 123456 ",
+      "global": false,
+      "description": "description_test"
+    }
+  },
+  "componentVersions": {
+    "KUBERNETES": "1.21"
+  }
+}
